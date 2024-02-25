@@ -1,8 +1,9 @@
 package prac;
 
+
 import java.util.Scanner;
 
-public class Main{
+public class r{
     public static void main(String[] args) {
         int x,y,sum,min,mul;
         char z;
@@ -24,15 +25,17 @@ public class Main{
 
         switch (z){
             case '+':
-                System.out.println("Your answer is : ");
+                System.out.println("Your answer is : "+sum);
                 break;
             case '-':
-                System.out.println(min);
+                System.out.println("Your answer is : "+min);
+                break;
             case '*':
-                System.out.println(mul);
+                System.out.println("Your answer is : "+mul);
+                break;
         }
 
-        System.out.println("your answer is : ");
+
 
 
 
