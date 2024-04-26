@@ -1,0 +1,15 @@
+package test;
+
+public class t1 {
+    int l, b;
+
+    int area(int l) {
+        return l * l;
+    }
+    //    public class area {
+    public static void main (String[]args){
+        t1 a = new t1();
+        int b = a.area(8);
+        System.out.println(b);
+    }
+}
